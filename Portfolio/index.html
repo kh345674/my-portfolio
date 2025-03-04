@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects">Project</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="About">
+        <h1>About Me</h1>
+        <p>I'm passionate about web development, skilled in HTML, CSS, JavaScript. I also specialize in off-page, on-page, and local SEO, with design expertise in Canva. I love creating websites and boosting online visibility.</p>
+    </section>
+
+    <section id="Project">
+        <h1>Projects</h1>
+        <div class="Project-card">
+            <h2>SEO Case Study</h2>
+            <p>Optimized a local business websites to increarch traffic by 40% through keyword research and technical SEO improvements.</p>
+        </div>
+        <div class="Project-card">
+            <h2>Simple Landing Page</h2>
+            <p>Designed a responsive landing page using HTML and CSS, showcasing my growing front-end development skills.</p>
+        </div>
+ </section>
+    
+ <section id="Contact">
+    <h1>Contact</h1>
+    <form id="contentForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" required>
+        </textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+    <p id="formMessage"></p>
+ </section>
+
+ <footer>
+    <p>&copy; 2025 Priya's Portfolio</p>
+ </footer>
+
+ <script src="script.js"></script>
+</body>
+</html>
